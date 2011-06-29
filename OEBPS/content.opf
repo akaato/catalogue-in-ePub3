@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf"
+	 unique-identifier="BookID" xml:lang="ja"
+	 profile="http://www.idpf.org/epub/30/profile/package/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+	    xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>○×デパート 総合カタログ 2011 春</dc:title>
+    <dc:creator opf:role="aut">絳アト</dc:creator>
+    <dc:language>ja</dc:language>
+    <dc:identifier id="BookID" opf:scheme="UUID">urn:uuid:c9a81a8e-3415-4450-877b-07ec88324ead</dc:identifier>
+    <meta name="cover" content="cover-image"/>
+ </metadata>
+ <manifest>
+   <item properties="nav" id="toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+   <item properties="cover-image" id="cover" href="cover.png" media-type="image/png"/>  
+   <item id="style" href="style.css" media-type="text/css"/>
+   <item properties="remote-resources scripted"
+	 id="catalogue" href="catalogue.xhtml" media-type="application/xhtml+xml"/>
+ </manifest>
+ <spine>
+   <itemref idref="toc"/>
+   <itemref idref="catalogue" />
+ </spine>
+</package>

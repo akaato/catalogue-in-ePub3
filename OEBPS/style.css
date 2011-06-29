@@ -1,0 +1,50 @@
+#result {
+  -webkit-column-count: 2;
+  column-count: 2;
+}
+#result > article.item {
+  -webkit-break-inside: avoid-column;
+  break-inside: avoid-colmun;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #eeeeff;
+}
+
+body > section > section > h1 {
+  padding: 10px 0px;
+  background-color: #f0fff0;
+}
+
+article.item > section > h1 {
+  padding: 5px 0px;
+  background-color: #eeffee;
+}
+
+.abstract {
+  display: table;
+  border-spacing: 10px 0px;
+}
+.abstract > p {
+  display: table-cell;
+}
+.abstract > dl {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+}
+dt {
+  float: left;
+  clear: left;
+}
+dt:after {
+  content: ': ';
+}
+dd.price:after {
+  content: " 円";
+}
+
+li.appendix {
+  list-style-type: lower-alpha;
+}
